@@ -70,7 +70,7 @@ Our route on the client does not have to match the API endpoint route.*/
 
 app.get('/authors', getAccessToken, function(req, res){
     request
-        .get('http://localhost:8080/reviewers')
+        .get('http://localhost:8080/authors')
         .set('Authorization', 'Bearer ' + req.access_token)
         .end(function(err, data) {
             if(data.status == 403){
