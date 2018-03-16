@@ -8,7 +8,7 @@
 
 - Run <code>node server</code>
 
-- Navigate to <code>[https://localhost:4000/](https://localhost:3000/)</code> in your browser
+- Navigate to <code>[https://localhost:3000/](https://localhost:3000/)</code> in your browser
 
 ## **_You must clone and launch the following API to run the application_**
 
